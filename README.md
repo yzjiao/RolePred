@@ -2,11 +2,11 @@
 Source code for the paper "Open-Vocabulary Argument Role Prediction for Event Extraction" from findings of EMNLP 2022.
 
 
-# Download Dataset
+## Download Dataset
 
-# Dataset Statistics
+## Dataset Statistics
 
-# Environment
+## Environment
 
-# Run RolePred
+## Run RolePred
 
