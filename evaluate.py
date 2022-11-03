@@ -165,20 +165,7 @@ def evaluate_arg(gold_args, pred_args):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 DATA_DIR = 'RoleEE_data/'
-#OUTPUT_DIR = 'output/'
 OUTPUT_DIR = 'output/'
 
 print(OUTPUT_DIR)
@@ -190,7 +177,7 @@ for root, dirs, files in os.walk(DATA_DIR, topdown=False):
 gold_role, gold_arg, pred_role, pred_arg = [], [], [], []
 for event_type in EVENT_TYPE:
     print (event_type)
-    gold_path = DATA_DIR + event_type + '/table_with_unknown.csv'
+    gold_path = DATA_DIR + event_type + '/EVENT.csv'
     role1, event1 = load_data(gold_path)
     
     pred_path = OUTPUT_DIR + event_type + '.csv'
