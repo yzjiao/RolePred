@@ -23,5 +23,5 @@ The dataset is now available at [Google Drive](https://drive.google.com/file/d/1
 
 ## Run RolePred
 - Download the RoleEE dataset. 
-- Run the role prediction framework: `python main.py`. The generated candidate roles will be saved under the directory `candidate_roles/` and the final output will be under the directory `output/` including the roles and arguments. 
+- Run the role prediction framework: `python main.py`. For each event type, the model will output a CSV file, in which the header is the argument roles and each row is the arguments of one event instance. Such final output will be saved under the directory `output/`. Also, the generated candidate roles will be saved under the directory `candidate_roles/`. 
 - Run the evaluation: `python evaluate.py`. 
